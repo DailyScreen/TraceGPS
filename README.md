@@ -1,6 +1,6 @@
 # Traitement fichier gps
 
-##Coordonnées géographiques d’un lieu
+## Coordonnées géographiques d’un lieu
 Les coordonnées géographiques d’un lieu sur la Terre forment un système de trois coordonnées qui sont le plus souvent :
 
 la latitude
