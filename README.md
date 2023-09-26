@@ -1,3 +1,4 @@
+
 # Traitement fichier gps
 
 ## Coordonnées géographiques d’un lieu
@@ -21,6 +22,28 @@ Le méridien de référence est le méridien de Greenwich et correspond à la lo
 La longitude s’étend de -180 à +180 , ou respectivement de 180 ouest à 180 est.
 
 ![image](https://github.com/DailyScreen/TraceGPS/assets/113687926/1fc78856-07d2-445d-944b-607c8d490f0c)
+
+## L'application
+
+Beaucoup de sportifs de plein-air (marcheurs, coureurs, cyclistes, kayakistes, ...) ont pris l'habitude
+d'enregistrer leur parcours avec un système de géolocalisation GPS tel que :
+
+
+ - montre GPS
+ - téléphone mobile équipé d'un GPS et d'une application d'enregistrement de parcours
+ 
+Ces systèmes enregistrent régulièrement (toutes les secondes dans certains cas) la position du sportif
+avec les données suivantes :
+- latitude et longitude (en degrés décimaux)
+- altitude (en mètres)
+- heure de passage (format courant : "yyyy-MM-ddThh:mm:ssZ")
+- rythme cardiaque (en battements par minute) si l'appareil dispose d'un capteur
+
+Les données sont enregistrées dans la mémoire de l'appareil.
+Il existe différents formats de fichiers, souvent basés sur le langage XML.
+C'est le cas des formats GPX, PWX et TCX (présentés plus loin dans ce document).
+A son retour, après une bonne douche, une sieste, ou une bière (!!!), le sportif peut transférer le fichier
+sur son ordinateur (avec ou sans fil) pour visualiser et analyser son parcours.
 
 ![image](https://github.com/DailyScreen/TraceGPS/assets/113687926/c90cb2e7-4e9b-4efe-989d-2d02825d1fc2)
 
