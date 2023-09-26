@@ -1,0 +1,254 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="TraceGPS.exe" version="1.1.0.0" publicKeyToken="7c1d58c41e6ef241" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="TraceGPS" version="1.1.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="TraceGPS.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="GMap.NET.Core.dll" size="2444288">
+      <assemblyIdentity name="GMap.NET.Core" version="1.7.0.0" publicKeyToken="B85B9027B614AFEF" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>qEhyQyowm+fP25Dps1n61EhCJ5ftrj1Azt+5E+Toyrw=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="GMap.NET.WindowsForms.dll" size="150528">
+      <assemblyIdentity name="GMap.NET.WindowsForms" version="1.7.0.0" publicKeyToken="B85B9027B614AFEF" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>OR+5lPpq2pKtS0bmJ6kp2xLb01qW5E+RnaEXYI4WWMQ=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Newtonsoft.Json.dll" size="526336">
+      <assemblyIdentity name="Newtonsoft.Json" version="9.0.0.0" publicKeyToken="30AD4FE6B2A6AEED" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>V14w+Y5OpCyeUW7ci7sprYtQsXOj5rNrW6OeEzzOlAY=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="TraceGPS.exe" size="372648">
+      <assemblyIdentity name="TraceGPS" version="1.1.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>naWM5KNCVK8EqtYci/zXJob8kmnx/UQD0L/IEjlHD4I=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="images\Apropos.ico" size="136606">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>C1bki7J3uQTNAI9UKKfaC9y8bKp9vYfFsonuTePm5Ms=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="images\carre-bleu.png" size="132">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>Hg8b5Y6pyyhN5kJoWy4wzJbG9yBDZXa7bFVUB/KHV/U=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="images\carre-jaune.png" size="132">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>fr4myXWetlto9T5KOLqyci3nvBXK4KpggZEOLi5oUjY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="images\carre-rouge.png" size="132">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>6hCVAQXp0yfnC/6v+rzgevG8jkxdyFy8/TUf5g89rGw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="images\carre-vert.png" size="132">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>y+6fOZXoazmJ7R6tiUfmuISdyYT1hcWexwVQ7Ku0g3E=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="images\icone TraceGPS.ico" size="136606">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>x1KItgmTGNQtINOtBBK8L6cea3MqHxwJcdgn2uCxy2s=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="images\Imprimer.ico" size="766">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>T2nF+gYWro2dqhMxLKZWKlBmZiMqCKi8malUY//UUYo=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="images\Logo TraceGPS.png" size="20469">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>DXDZ81M6YS6gDqNp0Dn55eKZGbGK4E8505vIWv+kCFg=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="images\MarqueurBleu.ico" size="136606">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>Z+zGSSwn+jEUdCroD1DQQxcng1gsNonbibgzsRTBBM4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="images\MarqueurJaune.ico" size="136606">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>/r9NttGQFd865p40LuI9HZSCVkCalDStHUMCDGCctB4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="images\MarqueurRouge.ico" size="136606">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>tOmPBePyRsmA800NajAuA9VrP4B6XJ+uj6x6AGlWxjU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="images\MarqueurVert.ico" size="136606">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>kzfGANBzHTq7bP3HSh5DlrI0z7+CeSMtrrZzs2vn+iY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="images\Ouvrir.ico" size="766">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>bT5UKz0yxP0uYuhs3pYzOcLy0DE1TO3rMR4CC1gQ0jc=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="images\Quitter.ico" size="766">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>mMtbc+lZs3JdRanFoqOYKQjTGGjE2z7P3AN8eQeleGY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="images\Recentrer.ico" size="136606">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>stWmdUWWlkpceSbDO16ic2DMjSKqIT/wLBC6Yzv94Mk=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="images\ZoomArriere.ico" size="136606">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>Pp9GblaszSQc4+nQT277XDdaXZSKQ4YhnCA5YbJA4P8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="images\ZoomAvant.ico" size="136606">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>L8sbyxmKBMIMhAcdmBMG44vxQMaCkKE3fEOsjnPKzIE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="TraceGPS.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>R+Wg8QGvQVHX8T0ta/qbhH1bXkqY0fRnS3wBV3J0bN8=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=SIO\marec.l" issuerKeyHash="fb0df0b178a6a91e9fc3469ec6fca7a589dd91bd" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>YWDT7PWM8ecVQFVi99FMZFPeghEkIU+DKNOqRuDEPco=</DigestValue></Reference></SignedInfo><SignatureValue>k/Uu/czkcdn/ekMGj0zyPp2HlIORJVn3q96G1PNygvRiALuaFX9F4B8/8S2rgHPxuXOB6aV+NqivdzTTLSitCNF8SjsoZWdLxKkL6306hXQOy6vb2uIh+21YuouITQ9N5qOS5uvLyH8AUDkFGsBYUkJaJ2yHskF/ZpIkkppVxQk=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>pR0s+BoL8xPvRZPw7t7xSOode8UIrlzOQKG5wteyLQQ4fyo7wnvssRrq9H9y2i58kpdXVPdcQlVhqGtuVFFC5XnJn5SZWH+BCgCHrvWaG4L1tRPjjNXtNCwmiySiRgFBwYL5Gp8DA2zIPltoq5J2Qhroe/xrx4bSLnNYWyS1gVk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="ca3dc4e046aad328834f21241182de53644cd1f762554015e7f18cf5ecd36061" Description="" Url=""><as:assemblyIdentity name="TraceGPS.exe" version="1.1.0.0" publicKeyToken="7c1d58c41e6ef241" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=SIO\marec.l</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>WeEoSZS5hTM45gug5/l7LEacS6WJCaaA9k92QWTBPTI=</DigestValue></Reference></SignedInfo><SignatureValue>SDTj1A2/OMpB85SV4k54xvaeoQzig8nD0SBeI06ZXcQMSrrWbCJR6nAEQZR+uU5V8q2FDSTCO6zFadRSTg96mHojirR8qj7dXmnkRHYnehHkYGKLTN/8NtVBMrO2s+ElmmXRNnz4rVs9ZnRHGtABYpV+iz4T6o7b4k5aB72z/x0=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>pR0s+BoL8xPvRZPw7t7xSOode8UIrlzOQKG5wteyLQQ4fyo7wnvssRrq9H9y2i58kpdXVPdcQlVhqGtuVFFC5XnJn5SZWH+BCgCHrvWaG4L1tRPjjNXtNCwmiySiRgFBwYL5Gp8DA2zIPltoq5J2Qhroe/xrx4bSLnNYWyS1gVk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIBxTCCAS6gAwIBAgIQLvi6bHTTx6hLpH9dr+KSajANBgkqhkiG9w0BAQsFADAhMR8wHQYDVQQDHhYAUwBJAE8AXABtAGEAcgBlAGMALgBsMB4XDTIzMDkyNjExNTIwMVoXDTI0MDkyNTE3NTIwMVowITEfMB0GA1UEAx4WAFMASQBPAFwAbQBhAHIAZQBjAC4AbDCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEApR0s+BoL8xPvRZPw7t7xSOode8UIrlzOQKG5wteyLQQ4fyo7wnvssRrq9H9y2i58kpdXVPdcQlVhqGtuVFFC5XnJn5SZWH+BCgCHrvWaG4L1tRPjjNXtNCwmiySiRgFBwYL5Gp8DA2zIPltoq5J2Qhroe/xrx4bSLnNYWyS1gVkCAwEAATANBgkqhkiG9w0BAQsFAAOBgQBamjXd692t6pFItczaB6Leo8VNIqRgUmfKw1y9Y2kBPFghSJl8/GkIcBtLVjXLfGTTCtat9499Db0uWqsEogfUnNsP3H7p6QC3yZawll/9cd8immJo5y7pMnCz+jcS4aVPsRkPtlyV8JrfPGCSZFsZhxK5kmAxUwJFu/pU1CNmYQ==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
